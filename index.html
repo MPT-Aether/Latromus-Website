@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Latromus | Smart Finance for Students</title>
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <div class="logo-icon">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <h2>Latromus</h2>
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#about">About</a>
+        <a href="#signup" class="btn-outline">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container hero">
+      <div class="hero-content" data-aos="fade-right" data-aos-duration="800">
+        <h1>Master your <span class="highlight">cash flow</span><br>Build financial freedom</h1>
+        <p class="hero-desc">Latromus empowers students with intelligent budgeting, expense tracking, and savings goals. Turn your allowance into a foundation for lifelong wealth.</p>
+        <div class="hero-buttons">
+          <button class="btn-primary" id="ctaButton"><i class="fas fa-download"></i> Download Now</button>
+          <button class="btn-outline light-outline" id="demoScrollBtn"><i class="fas fa-play"></i> See Demo</button>
+        </div>
+        <div class="trust-badge">
+          <i class="fas fa-shield-alt"></i> <span>Designed for SHS & College Students</span>
+        </div>
+      </div>
+      <div class="hero-mockup" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+        <div class="phone-mock">
+          <div class="mock-screen">
+            <div class="mock-header">
+              <span>9:41</span> <i class="fas fa-battery-full"></i>
+            </div>
+            <div class="dashboard-preview">
+              <div class="preview-card">
+                <i class="fas fa-chalkboard-user"></i> <strong>F.D.M. Simulation</strong>
+                <p>Foundations of Cash Flow 1.1: Concept & Framework</p>
+                <div class="preview-btn">Continue Module →</div>
+              </div>
+              <div class="preview-stats">
+                <span>Emergency Funds <b>21.9%</b></span>
+                <span>Debt <b>20.3%</b></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Features Section -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">Smart tools for student success</div>
+      <div class="section-sub" data-aos="fade-up" data-aos-delay="100">Everything you need to track, budget, and grow — all in a minimalist, engaging interface.</div>
+      <div class="features-grid">
+        <div class="feature-card" data-aos="flip-up" data-aos-delay="0">
+          <div class="feature-icon"><i class="fas fa-receipt"></i></div>
+          <h3>Expense Tracking</h3>
+          <p>Log every peso instantly. Visual breakdowns show exactly where money goes — from groceries to school projects.</p>
+        </div>
+        <div class="feature-card" data-aos="flip-up" data-aos-delay="100">
+          <div class="feature-icon"><i class="fas fa-tags"></i></div>
+          <h3>Budget Category Tools</h3>
+          <p>Custom categories: Emergency, Debt, Housing, Events & more. Real-time percentage allocation and alerts.</p>
+        </div>
+        <div class="feature-card" data-aos="flip-up" data-aos-delay="200">
+          <div class="feature-icon"><i class="fas fa-coins"></i></div>
+          <h3>Income Management</h3>
+          <p>Track allowance, side hustles, and stipends. See your net cash flow with minimalistic charts.</p>
+        </div>
+        <div class="feature-card" data-aos="flip-up" data-aos-delay="300">
+          <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Savings Goals</h3>
+          <p>Set milestone targets, visualize progress, and celebrate achievements — stay motivated!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Demo Section: using real screenshots from Prototype -->
+  <section id="demo" class="demo-showcase-section">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">Experience Latromus in action</div>
+      <div class="section-sub" data-aos="fade-up">Real interface previews from the actual student finance prototype.</div>
+
+      <div class="demo-grid">
+        <!-- Login UI Card -->
+        <div class="demo-card" data-aos="zoom-in">
+          <div class="demo-badge">Login Screen</div>
+          <div class="login-mockup">
+            <div class="placeholder-icon"><i class="fas fa-user-graduate"></i></div>
+            <h4>Login</h4>
+            <p class="sub">Sign in to continue.</p>
+            <div class="input-group">
+              <label>NAME</label>
+              <input type="text" value="Manapat, Gabriel" readonly>
+            </div>
+            <div class="input-group">
+              <label>PASSWORD</label>
+              <input type="password" value="password123" readonly>
+            </div>
+            <button class="mock-btn">Log in</button>
+            <div class="auth-links">
+              <span>Forgot Password?</span> <span>Signup !</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- User Dashboard + FDM Simulation Mockup -->
+        <div class="demo-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="demo-badge">User Dashboard</div>
+          <div class="dashboard-mock">
+            <div class="fdm-sim">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <strong>F.D.M. Simulation</strong>
+                <div class="fdm-title">Foundations of Cash Flow 1.1: Concept & Framework</div>
+                <p>Financial health is not determined by your income alone. It is determined by cash flow—the difference ...</p>
+                <span class="continue-module">Continue Module →</span>
+              </div>
+            </div>
+            <div class="expense-preview-mock">
+              <i class="fas fa-wallet"></i>
+              <ul>
+                <li><span>Spent on: Emergency Funds</span> <strong>PHP 110.00</strong></li>
+                <li><span>Spent on: Debt</span> <strong>PHP 500.00</strong></li>
+                <li><span>Spent on: Grocery</span> <strong>PHP 1,200.00</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Budget Management Chart -->
+        <div class="demo-card wide-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="demo-badge">Budget Management & Analytics</div>
+          <div class="budget-chart-area">
+            <div class="chart-summary">
+              <h4>Budget Distribution</h4>
+              <div class="category-list">
+                <div class="cat-item"><span class="cat-color emergency"></span> Emergency Funds <span class="percent">21.9%</span> <span class="amount">₱10,950</span></div>
+                <div class="cat-item"><span class="cat-color debt"></span> Debt <span class="percent">20.3%</span> <span class="amount">₱10,150</span></div>
+                <div class="cat-item"><span class="cat-color housing"></span> Housing <span class="percent">14.7%</span> <span class="amount">₱7,350</span></div>
+                <div class="cat-item"><span class="cat-color groceries"></span> Groceries <span class="percent">13.8%</span> <span class="amount">₱6,900</span></div>
+                <div class="cat-item"><span class="cat-color other"></span> Other <span class="percent">10.5%</span> <span class="amount">₱5,250</span></div>
+              </div>
+            </div>
+            <div class="mini-pie-animation">
+              <div class="pie-circle"></div>
+              <p><i class="fas fa-chart-pie"></i> Visual & interactive budget planning</p>
+              <button class="enter-cat-btn">[Enter to Categorize]</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Expense Tracking Snapshot -->
+      <div class="extra-demo" data-aos="fade-up">
+        <div class="tracking-row">
+          <div class="tracking-icon"><i class="fas fa-list-ul"></i></div>
+          <div class="tracking-details">
+            <h4>Real-time expense logs</h4>
+            <div class="expense-list">
+              <div class="expense-line">💸 Spent on: Emergency Funds - <strong>PHP 110.00</strong></div>
+              <div class="expense-line">💳 Spent on: Debt - <strong>PHP 500.00</strong></div>
+              <div class="expense-line">🛒 Spent on: Grocery - <strong>PHP 1,200.00</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Problem-Solution -->
+  <section id="about" class="about-section">
+    <div class="container about-grid">
+      <div class="about-content" data-aos="fade-right">
+        <h2>Why students love Latromus</h2>
+        <p>Poor fund allocation and event-driven expenses cause financial stress. <strong>Latromus</strong> changes that with interactive modules like F.D.M. Simulation, cash-flow mindset training, and intelligent budgeting tools.</p>
+        <ul class="benefits-list">
+          <li><i class="fas fa-check-circle"></i> Minimalistic & user-friendly design</li>
+          <li><i class="fas fa-check-circle"></i> Educational foundation for financial responsibility</li>
+          <li><i class="fas fa-check-circle"></i> Savings tracking & milestone celebrations</li>
+          <li><i class="fas fa-check-circle"></i> Customizable categories for events & org funds</li>
+        </ul>
+      </div>
+      <div class="about-visual" data-aos="flip-left">
+        <div class="stat-card">
+          <i class="fas fa-chart-simple"></i>
+          <h3>+72%</h3>
+          <p>Better budget adherence among students who use Latromus weekly.</p>
+        </div>
+        <div class="stat-card mt-3">
+          <i class="fas fa-brain"></i>
+          <h3>Financial Mindset</h3>
+          <p>From reactive spending to proactive planning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action + Signup -->
+  <section id="signup" class="cta-section">
+    <div class="container cta-wrapper" data-aos="zoom-in-up">
+      <div class="cta-text">
+        <h2>Start your journey to financial wellness</h2>
+        <p>Join thousands of students taking control of their cash flow — for free.</p>
+        <button class="btn-primary large-btn" id="finalCta"><i class="fas fa-envelope"></i> Get Early Access</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo-icon small-logo"><i class="fas fa-leaf"></i></div>
+        <span>Latromus — financial intelligence starts here.</span>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-copy">© 2025 Latromus — Personal Student Finance App for SHS & College</div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
